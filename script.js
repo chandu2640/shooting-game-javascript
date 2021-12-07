@@ -11,7 +11,7 @@ document.getElementById('left').addEventListener('click', () => {
   console.log('left')
   document.getElementById("shotter").style.transform = `rotate(-${72 * carPointing}deg)`;
   if (carPointing >= 5) {
-    carPointing = 0;
+    carPointing = 1;
   } else {
     carPointing += 1;
 
@@ -23,7 +23,7 @@ document.getElementById('right').addEventListener('click', () => {
   console.log('lrighteft')
   document.getElementById("shotter").style.transform = `rotate(${72 * carPointing}deg)`;
   if (carPointing >= 5) {
-    carPointing = 0;
+    carPointing = 1;
   } else {
     carPointing += 1;
 
